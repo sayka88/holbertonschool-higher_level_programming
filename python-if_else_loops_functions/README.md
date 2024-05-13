@@ -38,7 +38,8 @@ $ sudo apt-get install python3
 Clone the repository into a new directory
 
 ```
-$ git clone https://github.com/BennettDixon/holbertonschool-higher_level_programming.git
+$ git https://github.com/sayka88/holbertonschool-higher_level_programming.git
+
 ```
 
 ## :books: Coding Style Tests
@@ -79,7 +80,7 @@ $ pep8 --version
 
 
 ## :blue_book: Authors
-* **Y. Sayyara** - [@BennettDixon](https://github.com/sayka88)
+* **Y. Sayyara** - [@sayka88](https://github.com/sayka88)
 
 
 
