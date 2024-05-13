@@ -1,10 +1,38 @@
-Python Scripts
-Allowed editors: vi, vim, emacs
-All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.*)
-All your files should end with a new line
-The first line of all your files should be exactly #!/usr/bin/python3
-A README.md file at the root of the repo, containing a description of the repository
-A README.md file, at the root of the folder of this project, is mandatory
-Your code should use the pycodestyle (version 2.7.*)
-All your files must be executable
-The length of your files will be tested using wc
+# :shell: 0x00 - Hello World :shell:
+
+In this project I will be doing simple tasks to get reacquainted with Python. They will include shell scripts to execute them, linked lists, and other fundamental computer science concepts to refresh my understanding.
+
+## :running: Getting Started
+
+* [Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) - Operating system reqd.
+
+* [Python 3.4](https://www.python.org/download/releases/3.4.0/) - Python Version Used
+
+## :warning: Prerequisites
+
+* Must have `git` installed
+
+* Must have repository cloned
+
+* Must have `python3` installed
+
+```
+$ sudo apt-get install git
+```
+
+```
+$ sudo apt-get install python3
+```
+
+## :blue_book: Authors
+* **Y. sayyara** - [@sayka88](https://github.com/sayka88)
+
+## :mag: License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/sayka88/holbertonschool-higher_level_programming/blob/master/LICENSE.md) file for details
+
+
+
+## :mega: Acknowledgments
+
+* Holberton School (providing guidance)
