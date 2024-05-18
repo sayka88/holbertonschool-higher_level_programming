@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-import string
-print(*map(chr, range(65, 91)), sep='')
+for c in range(ord('A'), ord('Z') + 1):
+    print(chr(c), end='')
+print()
