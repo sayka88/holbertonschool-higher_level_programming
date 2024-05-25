@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This module defines a class Square with a private instance attribute size,
-and provides methods to calculate the area and get/set the size with validation.
+and provides methods to calculate the area.
 """
 
 
