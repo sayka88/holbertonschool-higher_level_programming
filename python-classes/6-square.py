@@ -1,13 +1,15 @@
 #!/usr/bin/python3
 """
-This module defines a class Square with private instance attributes size and position,
-and provides methods to calculate the area, get/set the size and position, and print the square.
+This module defines a class Square with private instance attributes
+size and position,
+and provides methods to calculate the area
 """
 
 
 class Square:
     """
-    This class defines a square by its size and position, can calculate its area, and print the square.
+    This class defines a square by its size and position,
+    can calculate its area, and print the square.
     """
 
     def __init__(self, size=0, position=(0, 0)):
@@ -17,7 +19,8 @@ class Square:
             size (int): The size of the square. Defaults to 0.
             position (tuple): The position of the square. Defaults to (0, 0).
         Raises:
-            TypeError: If size is not an integer or position is not a tuple of 2 positive integers.
+            TypeError: If size is not an integer or position
+            is not a tuple of 2 positive integers.
             ValueError: If size is less than 0.
         """
         self.size = size
