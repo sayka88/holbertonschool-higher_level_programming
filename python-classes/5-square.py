@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 """
 This module defines a class Square with a private instance attribute size,
-and provides methods to calculate the area, get/set the size, and print the square.
+and provides methods to calculate the area
 """
 
 
 class Square:
     """
-    This class defines a square by its size, can calculate its area, and print the square.
+    This class defines a square by its size,
+    can calculate its area, and print the square.
     """
 
     def __init__(self, size=0):
