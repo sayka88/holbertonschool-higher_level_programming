@@ -18,14 +18,10 @@ TypeError: a must be an integer
 
 And again with NaN numbers.
 
-::
+>>> add_integer(float('nan'))
+Traceback (most recent call last):
+ValueError: cannot convert float NaN to integer
 
-    >>> add_integer(float('nan'))
-    Traceback (most recent call last):
-    ValueError: cannot convert float NaN to integer
-
-::
-
-    >>> add_integer(2, float('nan'))
-    Traceback (most recent call last):
-    ValueError: cannot convert float NaN to integer
+>>> add_integer(2, float('nan'))
+Traceback (most recent call last):
+ValueError: cannot convert float NaN to integer
