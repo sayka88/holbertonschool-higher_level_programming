@@ -24,6 +24,8 @@ class Circle(Shape):
 
     def __init__(self, radius):
         """Initialize the circle with a radius."""
+        if radius < 0:
+            raise ValueError("Radius cannot be negative")
         self.__radius = radius
 
     def area(self):
@@ -40,6 +42,8 @@ class Rectangle(Shape):
 
     def __init__(self, width, height):
         """Initialize the rectangle with width and height."""
+        if width < 0 or height < 0:
+            raise ValueError("Width and height cannot be negative")
         self.__width = width
         self.__height = height
 
