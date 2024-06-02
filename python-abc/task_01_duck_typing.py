@@ -24,7 +24,7 @@ class Circle(Shape):
 
     def __init__(self, radius):
         """Initialize the circle with a radius."""
-        self.__radius = radius
+        self.__radius = abs(radius)  # Make sure the radius is positive
 
     def area(self):
         """Calculate the area of the circle."""
@@ -32,10 +32,7 @@ class Circle(Shape):
 
     def perimeter(self):
         """Calculate the perimeter (circumference) of the circle."""
-        if self.__radius == 0:
-            return 0
-        else:
-            return 2 * math.pi * self.__radius
+        return 2 * math.pi * self.__radius
 
 class Rectangle(Shape):
     """Rectangle class inherits from Shape."""
