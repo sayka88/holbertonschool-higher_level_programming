@@ -32,8 +32,10 @@ class Circle(Shape):
 
     def perimeter(self):
         """Calculate the perimeter (circumference) of the circle."""
-        return 2 * math.pi * self.__radius
-
+        if self.__radius == 0:
+            return 0
+        else:
+            return 2 * math.pi * self.__radius
 
 class Rectangle(Shape):
     """Rectangle class inherits from Shape."""
@@ -58,10 +60,10 @@ def shape_info(shape):
     print(f"Perimeter: {shape.perimeter()}")
 
 
-"""if __name__ == "__main__":
+if __name__ == "__main__":
     # Testing the functionality
     circle = Circle(radius=5)
     rectangle = Rectangle(width=4, height=7)
 
     shape_info(circle)
-    shape_info(rectangle)"""
+    shape_info(rectangle)
