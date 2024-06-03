@@ -1,4 +1,4 @@
-# 0x0B - Python - Input/Output
+# :shell: 0x0B - Python: Input, Output, & JSON :shell:
 
 At the end of this project, I am expected to be able to explain to anyone, without the help of Google:
 * Why Python programming is awesome
