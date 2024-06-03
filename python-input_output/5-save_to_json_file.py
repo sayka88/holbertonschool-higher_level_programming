@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""4. From JSON string to Object"""
+"""5. Save Object to a file"""
 import json
 
 
