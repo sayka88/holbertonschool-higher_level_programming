@@ -1,103 +1,43 @@
-# HOLBERTON SCHOOL HIGHER LEVEL PROGRAMMING
 
-Welcome to the repository containing various folders covering topics in higher-level programming using Python, DevOps essentials, and SQL. Each folder focuses on specific skills and tools related to its topic.
+# Python - Server-Side Rendering
 
-## Folders and Contents
+![1_Jsk5k8dg0ghnaEOT1nThdw](https://github.com/user-attachments/assets/7567457d-c2c2-4586-ad55-fe96038c63ca)
 
-### 00 - python-hello_world
-- **Description**: Basic Python scripts introducing Python syntax and print statements.
-- **Skills**: Python basics, printing to console.
-- **Tools**: Python interpreter.
+## Server-Side Rendering with Python and Flask
 
-### 01 - python-if_else_loops_functions
-- **Description**: Scripts covering conditional statements, loops, and functions in Python.
-- **Skills**: Conditional logic, loops, defining functions.
-- **Tools**: Python interpreter.
+Server-side rendering is a powerful technique where web pages are generated on the server and sent to the client as fully formed HTML. This contrasts with client-side rendering, where the browser builds the web page using JavaScript and dynamic data. Through this project, you will learn how to implement SSR using Python and Flask, leveraging the Jinja templating engine to create dynamic, efficient, and SEO-friendly web applications.
 
-### 02 - python-import_modules
-- **Description**: Demonstrates importing modules and using them in Python scripts.
-- **Skills**: Module import, namespace handling.
-- **Tools**: Python interpreter.
+## Learning Objectives
 
-### 03 - python-data_structures
-- **Description**: Implementation and manipulation of various data structures in Python.
-- **Skills**: Lists, tuples, dictionaries, sets.
-- **Tools**: Python interpreter.
+- Understand the concepts of server-side rendering and how it differs from client-side rendering.
+- Learn the benefits of using server-side rendering in web development.
+- Implement SSR in Python using the Flask framework.
+- Utilize Jinja templating engine to dynamically generate HTML pages.
+- Read and display data from various sources including JSON, CSV, and SQLite databases.
+- Handle dynamic content and user inputs in web applications.
 
-### 04 - python-more_data_structures
-- **Description**: Advanced data structures and their usage scenarios in Python.
-- **Skills**: Collections module, dictionaries, comprehensions.
-- **Tools**: Python interpreter.
+## What to Expect
 
-### 05 - python-exceptions
-- **Description**: Handling exceptions and error management in Python programs.
-- **Skills**: Exception handling, try-except blocks.
-- **Tools**: Python interpreter.
+In this project, you will build a Flask application that serves web pages using server-side rendering techniques. You will start by creating basic templates and gradually move towards integrating dynamic content from multiple data sources. By the end of the project, you will have a comprehensive understanding of SSR, templating, and how to build efficient, scalable web applications.
 
-### 06 - python-classes
-- **Description**: Introduction to object-oriented programming (OOP) with Python classes.
-- **Skills**: Class creation, inheritance, method overriding.
-- **Tools**: Python interpreter.
+## Resources
 
-### 07 - python-test_driven_development
-- **Description**: Practices and examples of writing unit tests for Python code.
-- **Skills**: Unit testing frameworks (e.g., unittest, pytest).
-- **Tools**: Python interpreter, pytest.
+- **MDN Web Docs on Server-Side Web Development**: [MDN Server-Side Web Development](https://developer.mozilla.org/en-US/docs/Learn/Server-side)
+- **Client-side vs. Server-side vs. Pre-rendering for Web Apps**: [Templating Engines in Web Development](https://www.sitepoint.com/client-side-vs-server-side-rendering/)
+- **Flask Documentation**: [Flask Official Documentation](https://flask.palletsprojects.com/)
+- **Python JSON Documentation**: [Python JSON Documentation](https://docs.python.org/3/library/json.html)
+- **Python CSV Documentation**: [Python CSV Documentation](https://docs.python.org/3/library/csv.html)
+- **Python SQLite Documentation**: [Python SQLite Documentation](https://docs.python.org/3/library/sqlite3.html)
+- **Jinja2 Documentation**: [Jinja2 Documentation](https://jinja.palletsprojects.com/)
 
-### 08 - python-more_classes
-- **Description**: Advanced concepts in classes and OOP principles in Python.
-- **Skills**: Encapsulation, polymorphism, class attributes.
-- **Tools**: Python interpreter.
+This project will equip you with the skills needed to implement server-side rendering in your web applications, making them more efficient, SEO-friendly, and easy to maintain.
 
-### 09 - python-inheritance
-- **Description**: Inheritance and subclassing in Python to promote code reusability.
-- **Skills**: Superclasses, subclasses, method inheritance.
-- **Tools**: Python interpreter.
+# Task List for Server-Side Rendering with Python and Flask
 
-### 10 - python-abc
-- **Description**: Abstract Base Classes (ABCs) and their implementation in Python.
-- **Skills**: Abstract methods, @abstractmethod decorator.
-- **Tools**: Python interpreter.
-
-### 11 - python-input_output
-- **Description**: Input and output operations in Python, including file handling.
-- **Skills**: Reading/writing files, file modes, file objects.
-- **Tools**: Python interpreter.
-
-### 12 - python-serialization
-- **Description**: Serialization techniques in Python (e.g., JSON, Pickle).
-- **Skills**: Serialization, deserialization.
-- **Tools**: Python interpreter.
-
-### 13 - restful-api
-- **Description**: Introduction to RESTful APIs and their implementation in Python.
-- **Skills**: HTTP methods (GET, POST, PUT, DELETE), API endpoints.
-- **Tools**: Python interpreter, Flask.
-
-### 14 - devops_essentials
-- **Description**: Fundamental concepts and tools essential for DevOps practices.
-- **Skills**: Continuous Integration/Continuous Deployment (CI/CD), Docker basics.
-- **Tools**: Git, Docker.
-
-### 15 - SQL_introduction
-- **Description**: Basics of SQL, querying databases using SQL commands.
-- **Skills**: SQL syntax, SELECT statements.
-- **Tools**: SQL database (e.g., SQLite, MySQL).
-
-### 16 - SQL_more_queries
-- **Description**: Advanced SQL queries, joins, and subqueries.
-- **Skills**: JOINs, UNION, nested queries.
-- **Tools**: SQL database (e.g., SQLite, MySQL).
-
-### python-object_relational_mapping
-- **Description**: Object-Relational Mapping (ORM) concepts and implementations in Python.
-- **Skills**: ORM frameworks (e.g., SQLAlchemy), database interactions.
-- **Tools**: Python interpreter, SQLAlchemy.
-
-### .gitignore
-- **Description**: Git ignore file to exclude unnecessary files from version control.
-- **Tools**: Git.
-
-### README.md
-- **Description**: Overview of folders and their contents in this repository.
-- **Tools**: Markdown.
+| Number | Task Name                                        | Description                                                                                                     |
+|--------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| 0      | Creating a Simple Templating Program             | Generate personalized invitation files from a template using Python. Implement error handling for edge cases.    |
+| 1      | Creating a Basic HTML Template in Flask          | Build a basic Flask application that serves a web page using Jinja templates. Include reusable header and footer.|
+| 2      | Creating a Dynamic Template with Loops and Conditions in Flask | Enhance Flask application to dynamically render content using Jinja loops and conditions. Read data from JSON. |
+| 3      | Displaying Data from JSON or CSV Files in Flask  | Read and display product data from JSON and CSV files. Use query parameters to determine data sources and filter criteria. Handle errors gracefully. |
+| 4      | Extending Dynamic Data Display to Include SQLite in Flask | Add functionality to fetch and display data from a SQLite database in Flask application. Handle multiple data sources and database-related issues. |
